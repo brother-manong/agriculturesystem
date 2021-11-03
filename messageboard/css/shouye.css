@@ -1,0 +1,39 @@
+ body{
+     margin:0px;
+     background-image:url(../img/bg.jpg);
+     background-repeat:no-repeat;
+     width:800px;
+
+}
+nav{
+    float: left;
+    width:1535px;
+    height:40px;
+    background-image:url(../img/nav.jpg);
+    margin: 100px 0 0 0;
+    padding: 0 ;
+}
+nav ul {
+    float:left;
+    margin: 0px;
+    padding: 0 0 0 0;
+    width: 920px;
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    float: left;
+    padding: 11px 20px; 
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    background: url(../img/templatemo_menu_divider.png)        center right no-repeat;
+    color: #fff;    
+    font-family: Tahoma;
+    outline: none;
+}
+nav li a:hover {
+    color: #2a5f00;
+}

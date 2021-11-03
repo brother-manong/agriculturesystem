@@ -1,0 +1,310 @@
+﻿.content .c_box li {
+    height: 40px;
+    line-height: 80px;
+    width: 48%;
+    overflow: hidden;
+    margin-left: 1%;
+    display: inline-block;
+}
+
+.purchase_box {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.c_410 {
+    width: 31%;
+    float: left;
+    padding: 0px 1% 10px 1%;
+}
+
+.cg_box {
+    border: 1px solid #ccc;
+}
+
+    .cg_box .cg_company {
+        height: 35px;
+        background-color: #e6e6e6;
+        padding: 0 10px 0 15px;
+        line-height: 35px;
+        background-image: url(../../images/expert/cg_c.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+        .cg_box .cg_company .cg_adress {
+            float: right;
+        }
+
+    .cg_box p {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .cg_box .cg_time {
+        height: 35px;
+        line-height: 35px;
+        padding: 0 10px;
+        overflow: hidden;
+    }
+
+    .cg_box .cg_content {
+        height: 75px;
+        line-height: 25px;
+        padding: 0 10px;
+        overflow: hidden;
+    }
+
+    .cg_box .cg_phone {
+        height: 30px;
+        line-height: 30px;
+        padding: 0 10px;
+        overflow: hidden;
+        margin-top: 10px;
+        color: #ff0036;
+        margin-bottom: 5px;
+    }
+
+        .cg_box .cg_phone a {
+            color: #ff0036;
+            float: right;
+            border: 1px solid #ff0036;
+            height: 25px;
+            line-height: 25px;
+            padding: 0 8px;
+        }
+
+.p_container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.purchase_banner {
+    height: 380px;
+    width: 100%;
+}
+
+    .purchase_banner img {
+        height: 380px;
+        width: 100%;
+    }
+
+.need_detail {
+    width: 900px;
+    margin: 15px auto;
+    border: 1px solid #598321;
+    max-height: 600px;
+    overflow: auto;
+    display: none;
+    overflow-y: hidden;
+}
+
+    .need_detail .nd_title {
+        height: 38px;
+        line-height: 38px;
+        background: #598321;
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+.userAndData {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 20px;
+    background: #e6e6e6;
+}
+
+    .userAndData span {
+        height: 35px;
+        line-height: 35px;
+        margin-right: 20px;
+    }
+
+        .userAndData span img {
+            vertical-align: middle;
+            margin-right: 8px;
+            margin-top: -2px;
+        }
+
+        .userAndData span img {
+            vertical-align: middle;
+            margin-right: 8px;
+            margin-top: -2px;
+        }
+
+.need_detail table {
+    padding: 20px;
+    border-bottom: 1px solid #598321;
+    font-size: 14px;
+    line-height: 25px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 3px;
+}
+
+    .need_detail table .title {
+        width: 72px;
+    }
+
+    .need_detail table td {
+        line-height: 25px;
+        padding: 0px;
+    }
+
+.nd_l {
+    width: 600px;
+    float: left;
+    margin: 30px 0px 20px 0px;
+}
+
+.nd_r {
+    width: 290px;
+    float: left;
+    margin: 40px 0px 15px 0px;
+    text-align: center;
+}
+
+.nd_l p {
+    margin: 0px;
+    padding: 0px;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.nd_phone {
+    line-height: 30px;
+}
+
+    .nd_phone span {
+        margin-right: 30px;
+        line-height: 30px;
+    }
+
+.nd_address {
+    line-height: 30px;
+}
+
+.nd_r a {
+    padding: 6px 30px;
+    background: #ff0036;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.nd_r p {
+    color: #999;
+    margin: 15px 0px;
+}
+
+.need_list {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+    .need_list .need_search {
+        background: #598321;
+        height: 40px;
+        margin: 10px 5px 5px 5px;
+        line-height: 38px;
+        padding: 0 15px;
+        margin-bottom: 10px;
+    }
+
+.need_search .layui-form-label {
+    color: #fff;
+    padding: 11px 10px 11px 0px;
+}
+
+.need_search .layui-input, .layui-select, .layui-textarea {
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.need_search .layui-form-select dl dd.layui-this {
+    background-color: #598321;
+}
+
+.need_search .layui-form-select dl {
+    top: 30px;
+}
+
+    .need_search .layui-form-select dl dd, .need_search .layui-form-select dl dt {
+        line-height: 30px;
+    }
+
+.s_btn_box {
+    width: 240px;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    background: #fff;
+    margin-top: -52px;
+    border-radius: 2px;
+}
+
+    .s_btn_box input {
+        height: 30px;
+        line-height: 30px;
+        border: none;
+        width: 190px;
+        margin-left: 10px;
+    }
+
+    .s_btn_box .s_search_btn {
+        width: 30px;
+        height: 30px;
+        display: block;
+        float: right;
+        text-align: center;
+    }
+
+        .s_btn_box .s_search_btn img {
+            vertical-align: middle;
+            margin-top: 0px;
+        }
+
+.need_list .cg_box .cg_company {
+    background-color: #cde1b0;
+}
+
+.need_detail table .xqtable {
+    font-size: 12px;
+    width: 779px;
+    color: #333;
+    line-height: 22px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 0px;
+    border-collapse: inherit;
+    border-spacing: 0;
+}
+
+    .need_detail table.xqtable td {
+        padding: 2px 0px;
+    }
+
+.need_detail table.xqtable {
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+    .need_detail table.xqtable td {
+        border-left: 1px solid #e6e6e6;
+        border-top: 1px solid #e6e6e6;
+    }
+
+.layui-form-item select {
+    height: 30px;
+    width: 120px;
+    text-indent: 0.5em;
+    padding: 0 5px;
+    border-radius: 3px;
+    float: left;
+    margin-right: 5px;
+}

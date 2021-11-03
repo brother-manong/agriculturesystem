@@ -1,0 +1,174 @@
+//标注当前打开页面的导航属性
+var pagecode = $("#pagecode").val();
+$("#" + pagecode).addClass("current");
+
+$(".maincontent").css({ "min-height": $(document).height()-100 });
+
+//鼠标移动到菜单上面，显示子菜单
+$(".nav a").hover(
+    function () {
+        $(this).find("ul").show();
+    }, function () {
+        $(this).find("ul").hide();
+    }
+);
+
+//鼠标点击菜单
+$(".nav a").click(function () {
+    $(".nav a").each(function () {
+        $(this).removeClass("current");
+        $(this).find("ul").hide();
+    });
+    $(this).addClass("current");
+});
+
+//点击左侧一级菜单
+$(".lt_1").click(function () {
+    $(".lt_1").each(function () {
+        $(this).removeClass("lt_1_current");
+        $(this).parent().find("ul").hide();
+    });
+    $(this).addClass("lt_1_current");
+    $(this).parent().find("ul").show();
+});
+//点击左侧二级菜单
+$(".l_ul_2 a").click(function () {
+    $(".l_ul_2 a").each(function () {
+        $(this).removeClass("li2_current");
+    });
+    $(this).addClass("li2_current");
+});
+
+
+//弹出登录框界面
+var login;
+//layer.cornerRadius = 20; 
+$(".Login").click(function () {
+    //alert(111);
+    login = layer.open({
+        title: '',
+        id: 'login',
+        type: 1,
+        area: ['600px', '360px'],
+        fixed: false, //不固定
+        closeBtn: 1,
+        shadeClose: true,
+        shade: 0.5,
+        content: $('#loginBox')
+    });
+});
+
+//弹出注册框界面
+var reg;
+//layer.cornerRadius = 20; 
+$("#userReg").click(function () {
+    layer.closeAll();
+    reg = layer.open({
+        title: '',
+        id: 'reg',
+        type: 1,
+        area: ['600px', '590px'],
+        fixed: false, //不固定
+        closeBtn: 1,
+        shadeClose: true,
+        shade: 0.5,
+        content: $('#regBox')
+    });
+});
+
+$("#loginBox .login_save").click(function () {
+    var name = $("#loginBox input[name=name]").val();
+    var password = $("#loginBox input[name=password]").val();
+    $.ajax({
+        url: '/Expert/Login/',
+        dataType: "json",
+        type: 'POST',
+        async: false,
+        data: { name: name, password: password },
+        success: function (res) {
+            if (res.IsSuccess) {
+                layer.msg(res.Message);
+                location.reload();
+            } else {
+                layer.msg(res.Message);
+            }
+
+        }
+    });
+});
+
+
+$("#regBox .login_save").click(function () {
+    var nname = $("#regBox input[name=nname]").val();
+    var name = $("#regBox input[name=name]").val();
+    var psd = $("#regBox input[name=psd]").val();
+    var cpsd = $("#regBox input[name=cpsd]").val();
+    var phone = $("#regBox input[name=phone]").val();
+    var qq = $("#regBox input[name=qq]").val();
+    var intro = $("#regBox input[name=intro]").val();
+    $.ajax({
+        url: '/Expert/Register/',
+        dataType: "json",
+        type: 'POST',
+        async: false,
+        data: { nname: nname, name: name, psd: psd, cpsd: cpsd, phone: phone, qq: qq, intro: intro },
+        success: function (res) {
+            if (res.IsSuccess) {
+                layer.msg(res.Message);
+                location.reload();
+            } else {
+                layer.msg(res.Message);
+            }
+        }
+    });
+});
+
+var LeaveWord = function (name, phone, content, responser) {
+    $.ajax({
+        url: '/Expert/LeaveWord/',
+        dataType: "json",
+        type: 'POST',
+        async: true,
+        data: { name: name, phone: phone, content: content, responser: responser },
+        success: function (res) {
+            if (res.IsSuccess) {
+                //预览图片
+                layer.msg(res.Message);
+                location.reload();
+            } else {
+                layer.msg(res.Message);
+            }
+        }
+    });
+}
+
+var ResponseLeaveWord = function (lid, responseContent) {
+    $.ajax({
+        url: '/Expert/ResponseLeaveWord/',
+        dataType: "json",
+        type: 'POST',
+        async: true,
+        data: { lid: lid, responseContent: responseContent },
+        success: function (res) {
+            if (res.IsSuccess) {
+                //预览图片
+                layer.msg(res.Message);
+                location.reload();
+            } else {
+                layer.msg(res.Message);
+            }
+        }
+    });
+}
+
+
+$(document).keydown(function (event) {
+    if (event.keyCode == 13) {
+        if ($("#loginBox").css('display') != "none") {
+            $("#loginBox .login_save").click(); //调用登录按钮的登录事件
+        }
+        if ($("#regBox").css('display') != "none") {
+            $("#regBox .login_save").click(); //调用注册按钮的登录事件
+        }
+    }
+});

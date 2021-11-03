@@ -1,0 +1,15 @@
+﻿$(".playvideo").click(function () {
+    var vid = $(this).attr("vid");
+    $("#videoDetail").load("/Expert/LoadVideo?vid=" + vid);
+    layer.open({
+        title: '',
+        id: 'login',
+        type: 1,
+        area: ['960px', 'auto'],
+        fixed: false, //不固定
+        closeBtn: 1,
+        shadeClose: true,
+        shade: 0.5,
+        content: $('#videoDetail')
+    });
+});

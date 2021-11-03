@@ -1,0 +1,68 @@
+//喇叭图片切换
+var i = 2;
+setInterval(function () {
+    i++;
+    if (i > 2) { i = 1; }
+    $("#msgId").attr("src", "/Images/Expert/index/top_icon_horn" + i + ".png");
+}, 500);
+
+
+//气象灾害信息滚动
+function ScrollImgLeft() {
+    var speed = 50;
+    var scroll_begin = document.getElementById("scroll_begin");
+    var scroll_end = document.getElementById("scroll_end");
+    var scroll_div = document.getElementById("scroll_div");
+    scroll_end.innerHTML = scroll_begin.innerHTML;
+    function Marquee() {
+        if (scroll_end.offsetWidth - scroll_div.scrollLeft <= 0)
+            scroll_div.scrollLeft -= scroll_begin.offsetWidth;
+        else
+            scroll_div.scrollLeft++;
+    }
+    var MyMar = setInterval(Marquee, speed);
+    scroll_div.onmouseover = function () { clearInterval(MyMar); }
+    scroll_div.onmouseout = function () { MyMar = setInterval(Marquee, speed); }
+}
+ScrollImgLeft();
+
+
+$(document).ready(function () {
+    //限制字符个数
+    $(".art_title").each(function () {
+        //alert($(this).text().length);
+        var maxwidth = 23;
+        if ($(this).text().length > maxwidth) {
+            $(this).text($(this).text().substring(0, maxwidth));
+            $(this).html($(this).html() + '…');
+        }
+    });
+
+    $(".zj_xq").each(function () {
+        //alert($(this).text().length);
+        var maxwidth = 42;
+        if ($(this).text().length > maxwidth) {
+            $(this).text($(this).text().substring(0, maxwidth));
+            $(this).html($(this).html() + '…');
+        }
+    });
+    $(".viewdata").click(function () {
+        var pid = $(this).attr("pid");
+        $("#showNeedDetail").load("/Expert/PurchaseDetail?pid=" + pid);
+        layer.open({
+            title: '',
+            id: 'login',
+            type: 1,
+            area: ['1000px', 'auto'],
+            fixed: false, //不固定
+            closeBtn: 1,
+            shadeClose: true,
+            shade: 0.5,
+            content: $('#showNeedDetail')
+        });
+    });
+
+    $(".sys_btn").click(function () {
+        LeaveWord($('#name').val(), $('#phone').val(), $('#content').val());
+    });
+});

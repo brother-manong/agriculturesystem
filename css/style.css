@@ -1,0 +1,2466 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    color: #333;
+    min-width: 1200px;
+}
+
+img {
+    border: none
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.header {
+    width: 1200px;
+    height: 50px;
+    margin-top: 20px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -600px;
+}
+
+    .header h3 {
+        font-size: 30px;
+        color: #38571c;
+        letter-spacing: 3px;
+        line-height: 56px;
+        margin: 0px;
+        padding: 0px;
+        font-weight: normal;
+    }
+
+    .header .h_right {
+        float: right;
+        margin-top: -50px;
+        height: 44px;
+        width: auto;
+    }
+
+        .header .h_right img {
+            margin-right: 5px;
+            float: left;
+            width: 44px;
+            height: 44px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            -ms-border-radius: 100px;
+            -o-border-radius: 100px;
+            border-radius: 100px;
+        }
+
+        .header .h_right .userbox {
+            height: 44px;
+            width: auto;
+            float: left;
+        }
+
+        .header .h_right .loginOrReg {
+            height: 44px;
+            width: auto;
+            float: left;
+        }
+
+            .header .h_right .loginOrReg a {
+                color: #333;
+                display: block;
+                height: 44px;
+                line-height: 44px;
+            }
+
+        .header .h_right .h_name {
+            display: block;
+            height: 20px;
+            line-height: 20px;
+            margin-top: 4px;
+        }
+
+        .header .h_right .userbox a {
+            display: block;
+            height: 20px;
+            line-height: 20px;
+            color: #333;
+        }
+
+.menu {
+    width: 100%;
+    height: 50px;
+    /*background: url(/Images/Expert/top_pic_banner.png) repeat-x center;*/
+    background-color:#008015;
+    margin-top: 10px;
+    position: absolute;
+    top: 96px;
+    min-width: 1200px;
+    z-index: 9999;
+    margin: 0
+}
+
+    .menu .nav {
+        width: 1200px;
+        margin: 0 auto;
+        height: 50px;
+    }
+
+        .menu .nav .nav_a {
+            display: block;
+            float: left;
+            height: 50px;
+            line-height: 50px;
+            color: #fff;
+            padding: 0 15px;
+            font-size: 16px;
+            letter-spacing: 2px;
+            margin: 0 2px;
+        }
+
+            .menu .nav .nav_a:hover {
+                /*background: url(/Images/Expert/top_pic_banner2.png) repeat-x center;*/
+                background-color: #fff;
+                color: #008015;
+            }
+
+        .menu .nav .current {
+            /*background: url(/Images/Expert/top_pic_banner2.png) repeat-x center;*/
+            background-color: #fff;
+            color: #008015;
+        }
+
+        .menu .nav ul {
+            background: #7ca940;
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            margin: 0 -15px;
+        }
+
+            .menu .nav ul li {
+                height: 28px;
+                line-height: 28px;
+                font-size: 14px;
+                border-top: 1px solid #fff;
+            }
+
+                .menu .nav ul li:hover {
+                    background: #38571c;
+                }
+
+.banner {
+    width: 100%;
+    height: 10px;
+    margin-top: 146px;
+}
+
+.qxmsg {
+    width: 1000px;
+    margin: 0 auto;
+    height: 22px;
+    line-height: 22px;
+    padding-top: 10px;
+}
+
+    .qxmsg #gongao {
+        overflow: hidden;
+        line-height: 22px;
+        height: 22px;
+        width: 970px;
+        overflow: hidden;
+        letter-spacing: 1px;
+    }
+
+    .qxmsg img {
+        height: 22px;
+        display: block;
+        float: left;
+        width: 26px;
+        margin-right: 4px;
+    }
+
+#gongao #scroll_begin, #gongao #scroll_end {
+    display: inline
+}
+
+#scroll_div {
+    width: 970px;
+    height: 30px;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content900 {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.content880 {
+    float: left;
+    width: 800px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.content300 {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.cr300 {
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.content450 {
+    float: left;
+    width: 430px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.content .c_title {
+    width: 100%;  
+    height: 31px;
+    border-bottom: 1px solid #38571c;
+    line-height: 31px;
+
+}
+
+    .content .c_title span {
+        margin-left: 10px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    .content .c_title a {
+        float: right;
+        color: #333;
+        font-size: 1px;
+        letter-spacing: 2px;
+        font-size:12px;
+    }
+
+    .content .c_box {
+        margin-top: 2px;
+        /*border: 1px solid #ccc;*/
+        padding: 10px 10px 0px 10px;
+    }
+
+    .content .c_box ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .content .c_box li {
+        height:60px;
+        width: 49%;
+        overflow: hidden;
+        margin-bottom: 10px;
+        display:inline-block
+    }
+
+        .content .c_box li img {
+            height: 30px;
+            width: 60px;
+            margin-right: 8px;
+            float: left;
+        }
+
+        .content .c_box li .c_l_box {
+            height: 60px;
+            width: 100%;
+            float: left;
+            overflow: hidden;
+        }
+
+            .content .c_box li .c_l_box p {
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .content .c_box li .c_l_box .art_title {
+                height: 30px;
+                margin-top: 5px;
+                line-height: 30px;
+                color: #333;
+                overflow: hidden;
+                float: left;
+                width: auto;
+            }
+
+            .content .c_box li .c_l_box .art_type {
+                height: 30px;
+                margin-top: 5px;
+                line-height: 30px;
+                color: #333;
+                overflow: hidden;
+                float: right;
+                width: auto;
+            }
+
+                .content .c_box li .c_l_box .art_type img {
+                    height: 20px;
+                    width: auto;
+                    margin-right: 3px;
+                }
+
+.art_types {
+    padding: 0 0 0 8px !important;
+    display: block;
+    height: 30px;
+    line-height: 20px;
+    color: #666;
+    overflow: hidden;
+    float: left;
+    width: auto;
+}
+.content880 .c_box ul li {
+    width: 49%;
+    float: left;
+}
+
+    .content880 .c_box ul li .c_l_box {
+        height: 100px;
+        width: 310px;
+        line-height: 60px;
+        float: left;
+        overflow: hidden;
+        margin: 0;
+    }
+
+.content450 .c_box ul li .c_l_box .art_title {
+    background: url(/Images/Expert/c_circle.png) no-repeat left center;
+    padding-left: 15px;
+   
+}
+
+.content880 .c_box ul li .c_l_box .art_title {
+    background: url(/Images/Expert/c_circle.png) no-repeat left center;
+    padding-left: 15px;
+    width: 310px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+}
+
+.content880 .c_box ul li .c_l_box .art_type {
+    padding-left: 15px;
+    width: 100px;
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+}
+.content900 .c_box ul li .c_l_box .art_title {
+    background: url(/Images/Expert/c_circle.png) no-repeat left center;
+    padding-left: 15px;
+}
+.clear {
+    clear: both;
+}
+
+textarea {
+    outline: none
+}
+
+.c_box textarea {
+    width: 90%;
+    margin-left: 5%;
+    height: 120px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #999;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.onlinezd {
+    width: 90%;
+    margin-left: 5%;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    background: url(/Images/Expert/c_dav_bg.png) repeat-x center;
+    color: #fff;
+    letter-spacing: 5px;
+    margin-top: 15px;
+}
+
+.zd_tips {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    padding-bottom: 5px;
+}
+
+textarea::-webkit-input-placeholder { /* WebKit browsers */
+    color: #999;
+    font-size: 12px;
+}
+
+textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #999;
+    font-size: 12px;
+}
+
+textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #999;
+    font-size: 12px;
+}
+
+textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #999;
+    font-size: 12px;
+}
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #999;
+    font-size: 12px;
+}
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #999;
+    font-size: 12px;
+}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #999;
+    font-size: 12px;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #999;
+    font-size: 12px;
+}
+
+.zj_list {
+    margin-bottom: 10px;
+    display: block;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+    .zj_list img {
+        width: 80px;
+        height: 100px;
+        float: left;
+        margin-right: 8px;
+    }
+
+.zj_box {
+    float: left;
+    width: 185px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.zj_box {
+    float: left;
+    width: 185px;
+    height: 100px;
+    overflow: hidden;
+}
+
+    .zj_box p {
+        margin: 0px;
+        padding: 0px;
+        color: #333;
+    }
+
+    .zj_box .zj_title {
+        font-size: 12px;
+        color: #333;
+        height: 20px;
+        margin-top: 10px;
+        line-height: 20px;
+        overflow: hidden;
+    }
+
+    .zj_box .zj_name {
+        font-size: 16px;
+        margin-right: 8px;
+    }
+
+    .zj_box .zj_xq {
+        font-size: 12px;
+        color: #999;
+        height: 54px;
+        line-height: 18px;
+        overflow: hidden;
+        margin-top: 6px;
+    }
+    .zj_box .zj_xqs {
+        display: inline-block;
+        height: 40px;
+        width: 80%;
+        overflow: hidden;
+        font-size: 14px;
+        margin-top: 10px
+    }
+.maincontent {
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    min-width: 1200px;
+    /*margin-top: 10px;*/
+    bottom: 0;
+}
+
+    .footer a {
+        color: #333;
+        font-size: 12px;
+        padding: 0px;
+        margin: 0px;
+        letter-spacing: 1px;
+    }
+
+    .footer p {
+        color: #333;
+        font-size: 12px;
+        padding: 0px;
+        margin: 0px;
+        letter-spacing: 1px;
+        margin-top: 3px;
+    }
+/*知识库css*/
+.zsk_searchBox {
+    width: 100%;
+    height: 160px;
+    background: url(/Images/Expert/zsk/pic_banner2.png) no-repeat center;
+    margin-top: 130px;
+}
+
+    .zsk_searchBox .zsk_s_div {
+        width: 400px;
+        height: 30px;
+        margin: 0 auto;
+        padding-top: 65px;
+    }
+
+a, input {
+    outline: none
+}
+
+.zsk_searchBox .zsk_s_div input {
+    width: 280px;
+    height: 30px;
+    display: block;
+    float: left;
+    border: 1px solid #38571c;
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+.zsk_searchBox .zsk_s_div a {
+    margin-left: 8px;
+    width: 90px;
+    height: 30px;
+    float: left;
+    background: url(/Images/Expert/c_dav_bg.png) repeat-x center;
+    line-height: 30px;
+    display: block;
+    float: left;
+    text-align: center;
+    color: #fff;
+}
+
+    .zsk_searchBox .zsk_s_div a img {
+        vertical-align: middle;
+        margin-right: 3px;
+    }
+
+.zsk_content {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.c_left {
+    width: 240px;
+    float: left;
+    border: 1px solid #a8a8a8;
+    margin-top: 36px;
+    background: url('/Images/Expert/c_left_bg.png') no-repeat right bottom;
+    background-color:#f8f8f8;
+}
+
+.l_title {
+    width: 100%;
+    height: 91px;
+    line-height: 120px;
+    background: url(/Images/Expert/c_dav_bg.png) no-repeat top left;
+    color: #333;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+    top: -31px;
+    font-size:18px;
+    left:-1px;
+}
+
+.c_left ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+    .c_left ul a {
+        display: block
+    }
+
+        .c_left ul a:hover {
+            display: block;
+            color: #fff;
+        }
+
+.lt_1 {
+    height: 32px;
+    line-height: 32px;
+    background: url(/Images/Expert/zsk/left_nav_down.png) no-repeat right center;
+    color: #fff;
+    width: 210px;
+    padding: 0 10px;
+}
+
+.lt_1_current {
+    background: url(/Images/Expert/zsk/left_nav_up.png) no-repeat right center;
+}
+
+.l_ul_1 .ul1_li {
+    background: #7ca940;
+    border-bottom: 1px solid #fff;
+}
+
+.l_ul_2 {
+    background: #fff;
+}
+
+    .l_ul_2 li {
+        background: #fff;
+        height: 28px;
+        line-height: 28px;
+        color: #999;
+        overflow: hidden;
+    }
+
+        .l_ul_2 li a {
+            color: #999;
+            padding: 0 10px;
+            font-size: 12px;
+        }
+
+            .l_ul_2 li a:hover {
+                background: #e6e6e6;
+                color: #999;
+            }
+
+    .l_ul_2 .li2_current {
+        background: #e6e6e6;
+    }
+
+.nomenu {
+    text-align: center;
+    font-size: 12px;
+}
+
+.c_right {
+    width: 948px;
+    float: left;
+    margin-left: 10px;
+}
+
+    .c_right .position {
+        font-size: 12px;
+        height: 35px;
+        line-height: 35px;
+        margin-left: 10px;
+    }
+
+.zsk_list {
+    border: 1px solid #ccc;
+}
+
+    .zsk_list ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+
+        .zsk_list ul li {
+            background: url(/Images/Expert/c_circle.png) no-repeat left center;
+            height: 38px;
+            line-height: 38px;
+            border-bottom: 1px dashed #ccc;
+            text-indent: 15px;
+            overflow: hidden;
+        }
+            .zsk_list ul li:hover span {
+                color: #008015 !important;
+            }
+
+    .zsk_list .zsk_title {
+        height: 38px;
+        line-height: 38px;
+        color: #333;
+    }
+
+    .zsk_list .zsk_type {
+        height: 38px;
+        line-height: 38px;
+        float: right;
+        color: #999;
+        font-size: 12px;
+        text-align: right;
+    }
+
+        .zsk_list .zsk_type img {
+            height: 20px;
+            width: auto;
+            margin-right: 3px;
+            vertical-align: middle;
+        }
+
+    .zsk_list #pagination {
+        float: right;
+        margin-right: 20px;
+    }
+
+.zsk_xq {
+    padding: 20px 20px;
+    line-height: 25px;
+    border: 1px solid #ccc;
+}
+
+    .zsk_xq .xq_title {
+        line-height: 40px;
+        font-size: 18px;
+        text-align: center;
+        clear: both;
+    }
+
+    .zsk_xq .xq_type {
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        font-size: 12px;
+        color: #999;
+        margin-bottom: 10px;
+    }
+
+        .zsk_xq .xq_type .fb_name {
+            margin-right: 20px;
+        }
+
+    .zsk_xq img {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        ;
+    }
+
+.disease_list {
+    border: 1px solid #ccc;
+}
+
+    .disease_list ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        padding: 20px 20px;
+        margin-bottom: 10px;
+    }
+
+        .disease_list ul li {
+            width: 50%;
+            float: left;
+            overflow: hidden;
+            height: 60px;
+            margin-bottom: 10px;
+        }
+
+            .disease_list ul li img {
+                float: left;
+                display: block;
+                height: 60px;
+                width: 60px;
+                margin-right: 10px;
+            }
+
+            .disease_list ul li .dis_box {
+                width: 364px;
+                float: left;
+                height: 60px;
+                overflow: hidden;
+            }
+
+                .disease_list ul li .dis_box .dis_title {
+                    height: 30px;
+                    line-height: 30px;
+                    margin-top: 2px;
+                    overflow: hidden;
+                }
+
+                .disease_list ul li .dis_box .dis_type {
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 12px;
+                    color: #999;
+                }
+
+                    .disease_list ul li .dis_box .dis_type img {
+                        height: 20px;
+                        width: auto;
+                        margin-right: 3px;
+                        vertical-align: middle;
+                    }
+
+    .disease_list #pagination {
+        float: right;
+        margin-right: 20px;
+    }
+
+.collect {
+    display: block;
+    float: right;
+    color: #e09911;
+    letter-spacing: 1px;
+    border: 1px solid #e09911;
+    outline: none;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    background: url(/Images/Expert/icon_sc_sel.png) no-repeat left center;
+    text-indent: 23px;
+    padding: 0 10px;
+}
+
+.collect_current {
+    background: url(/Images/Expert/icon_sc.png) no-repeat left center;
+}
+
+.collect:hover {
+    color: #e09911;
+}
+/*农业专家*/
+.expertOnline {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+    .expertOnline #pagination {
+        float: right;
+    }
+
+    .expertOnline ul li {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        height: 130px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+.expertPic {
+    width: 110px;
+    height: 110px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.expertList {
+    float: left;
+    width: 767px;
+    height: 130px;
+    overflow: hidden;
+    padding-left:10px;
+}
+
+    .expertList .expertName {
+        float: left;
+        width: 761px;
+        height: 20px;
+        line-height: 20px;
+        overflow: hidden;
+    }
+
+        .expertList .expertName .ename {
+            font-size: 16px;
+            margin-right: 10px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+    .expertList .expertIntro {
+        float: left;
+        height: 20px;
+        margin: 8px 0px;
+        line-height: 22px;
+    }
+
+    .expertList .expertBtn {
+        float: left;
+        width: 778px;
+        height: 30px;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+
+        .expertList .expertBtn a {
+            height: 30px;
+            padding: 5px 20px;
+            background: url(/Images/Expert/c_dav_bgs.png) repeat-x center;
+            color: #fff;
+            line-height: 30px;
+            margin-right: 10px;
+        }
+
+.erpertAbout {
+    float: right;
+    background: url(/Images/Expert/icon_gz.png) no-repeat left center;
+    color: #e09911;
+    text-indent: 25px;
+}
+
+    .erpertAbout:hover {
+        color: #e09911;
+    }
+
+.erpert_current {
+    background: url(/Images/Expert/icon_gz_sel.png) no-repeat left center;
+}
+
+.expertDetail {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.ed_Pic {
+    width: 200px;
+    height: 250px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+.ed_person {
+    width: 684px;
+    height: 250px;
+    overflow: hidden;
+    float: left;
+}
+
+.ed_top {
+    height: 40px;
+    overflow: hidden;
+    margin: 5px 0px;
+}
+
+.ed_name {
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-right: 40px;
+}
+
+.ed_about {
+    background: url(/Images/Expert/icon_gz.png) no-repeat left center;
+    color: #e09911;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+    .ed_about:hover {
+        color: #e09911;
+    }
+
+.ed_current {
+    background: url(/Images/Expert/icon_gz_sel.png) no-repeat left center;
+}
+
+.ed_person .p_16 {
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.p_999 {
+    color: #999;
+    line-height: 22px;
+    margin-bottom: 8px;
+    height: 22px;
+    overflow: hidden
+}
+
+.sjly {
+    color: #999;
+    line-height: 22px;
+    margin-bottom: 8px;
+    height: 44px;
+    overflow: hidden
+}
+
+.ed_btn {
+    margin-top: 20px;
+}
+
+    .ed_btn a {
+        height: 30px;
+        padding: 5px 20px;
+        background: url(/Images/Expert/c_dav_bgs.png) repeat-x center;
+        color: #fff;
+        line-height: 30px;
+        margin-right: 10px;
+    }
+
+        .ed_btn a:hover {
+            color: #fff
+        }
+
+.ed_intro .intro_title {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.intro_detail {
+    border: 1px solid #ccc;
+    padding: 10px;
+    line-height: 22px;
+}
+
+#onlineMsg {
+    width: 620px;
+    padding: 40px;
+}
+
+    #onlineMsg label {
+        width: 70px;
+        height: 20px;
+        line-height: 20px;
+        display: block;
+        margin-top: 8px;
+        float: left;
+    }
+
+    #onlineMsg input {
+        width: 530px;
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #ccc;
+        margin: 5px 0px;
+        padding: 0px 10px;
+    }
+
+    #onlineMsg textarea {
+        width: 600px;
+        height: 200px;
+        border: 1px solid #ccc;
+        line-height: 22px;
+        margin: 5px 0px;
+        padding: 5px 10px;
+    }
+
+.msg_btn {
+    height: 30px;
+    padding: 5px 30px;
+    background: url(/Images/Expert/c_dav_bg.png) repeat-x center;
+    color: #fff;
+    line-height: 30px;
+    margin-right: 20px;
+}
+
+.confirmBox {
+    text-align: right;
+    margin-top: 15px;
+}
+/*系统留言*/
+.sysMsg {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+    .sysMsg .tiyle_c {
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        letter-spacing: 3px;
+        text-align: center;
+        font-weight: 600;
+        padding-top: 50px;
+    }
+
+    .sysMsg .tiyle_e {
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+        text-align: center;
+        color: #999;
+        text-transform: uppercase
+    }
+
+    .sysMsg .sys_left {
+        width: 465px;
+        height: 265px;
+        float: left;
+        margin-top: 30px;
+    }
+
+    .sysMsg .sys_right {
+        width: 400px;
+        height: 265px;
+        float: left;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+.content300 .sys_right {
+    width: 300px;
+    height: 265px;
+    float: left;
+    margin-top: 30px;
+}
+
+
+
+
+
+.sysMsg .sys_right label {
+    width: 65px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    margin: 5px 0px;
+}
+.content300 .sys_right label {
+    width: 65px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    margin: 5px 0px;
+    font-weight:400;
+}
+        .sysMsg .sys_right input {
+            width: 312px;
+            height: 30px;
+            line-height: 30px;
+            display: block;
+            float: left;
+            margin: 5px 0px;
+            border: 1px solid #ccc;
+            outline: none;
+            padding: 0px 10px;
+        }
+.content300 .sys_right input {
+    width: 230px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    margin: 5px 0px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 0px 10px;
+}
+        .sysMsg .sys_right textarea {
+            width: 312px;
+            height: 120px;
+            line-height: 30px;
+            display: block;
+            float: left;
+            margin: 5px 0px;
+            border: 1px solid #ccc;
+            outline: none;
+            padding: 5px 10px;
+            line-height: 22px;
+        }
+
+.content300 .sys_right textarea {
+    width: 230px;
+    height: 120px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    margin: 5px 0px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 5px 10px;
+    line-height: 22px;
+    resize:none;
+}
+
+
+.sysMsg .sys_btn {
+    height: 30px;
+    width: 312px;
+    display: block;
+    /*background: url(/Images/Expert/c_dav_bgs.png) repeat-x center;*/
+    background: #008015;
+    color: #fff;
+    line-height: 30px;
+    margin-left: 65px;
+    text-align: center;
+    margin-top: 20px;
+}
+.content300 .sys_btn {
+    height: 30px;
+    width: 230px;
+    display: block;
+    background: #008015;
+    color: #fff;
+    line-height: 30px;
+    margin-left: 65px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sysMsg .sys_content {
+    width: 885px;
+    margin: 0 auto;
+    height: 330px;
+}
+/*个人中心*/
+.userCenter {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+    .userCenter .userBox {
+        border: 1px solid #ccc;
+    }
+
+    .userCenter .userLogo {
+        display: block;
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+        margin-top: 30px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+        border-radius: 100px;
+    }
+
+    .userCenter .userName {
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .userCenter .userList {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+
+        .userCenter .userList li {
+            height: 35px;
+            line-height: 35px;
+            padding: 0 15px 0px 10px;
+        }
+
+        .userCenter .userList .li_current {
+            background: #fff;
+        }
+
+        .userCenter .userList li a {
+            color: #333;
+            background: url(/Images/Expert/grzx/icon_right.png) no-repeat right center;
+            display: block;
+            height: 35px;
+            line-height: 35px;
+        }
+
+            .userCenter .userList li a img {
+                vertical-align: middle;
+                height: 21px;
+                width: 21px;
+                margin-right: 5px;
+                margin-top: -3px;
+            }
+
+        .userCenter .userList .li_current a {
+            color: #008015;
+            background: url(/Images/Expert/grzx/icon_right_sel.png) no-repeat right center;
+        }
+
+.uc_pwdBox {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+    .uc_pwdBox .modPwd {
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+        .uc_pwdBox .modPwd input {
+            display: block;
+            border: 1px solid #ccc;
+            height: 30px;
+            line-height: 30px;
+            width: 100%;
+            text-indent: 10px;
+            margin: 6px 0px 15px 0px;
+        }
+
+.findPwd {
+    text-align: right;
+}
+
+    .findPwd a {
+        color: #999;
+        font-size: 12px;
+    }
+
+        .findPwd a:hover {
+            color: #e60012;
+            font-size: 12px;
+        }
+
+.modPwdBtn {
+    display: block;
+    background: url(/Images/Expert/c_dav_bgs.png) repeat-x center;
+    color: #fff;
+    width: 350px;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 33px 0px;
+}
+
+    .modPwdBtn:hover {
+        color: #fff;
+    }
+
+#findbackPwd {
+    padding: 30px;
+}
+
+    #findbackPwd .fb_left {
+        width: 215px;
+        float: left;
+        border-right: 1px solid #ccc;
+        margin-top: 90px;
+    }
+
+    #findbackPwd .fb_right {
+        width: 424px;
+        float: left;
+    }
+
+    #findbackPwd .fb_left img {
+        width: 100px;
+        height: 100px;
+        margin-left: 65px;
+    }
+
+    #findbackPwd .fb_left span {
+        display: block;
+        width: 100px;
+        height: 40px;
+        margin-left: 65px;
+        display: block;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    #findbackPwd .fb_right .fb_r_box {
+        width: 300px;
+        margin-left: 50px;
+        padding: 10px 0px;
+    }
+
+    #findbackPwd .fb_right label {
+        display: block;
+    }
+
+    #findbackPwd .fb_right input {
+        width: 100%;
+        display: block;
+        border: 1px solid #ccc;
+        height: 30px;
+        line-height: 30px;
+        text-indent: 10px;
+        margin: 5px 0px 10px 0px;
+    }
+
+    #findbackPwd .fb_right .verCode {
+        width: 145px;
+        float: left;
+        margin: 5px 0px 10px 0px;
+    }
+
+    #findbackPwd .fb_right #input_btnbox {
+        width: 140px;
+        float: right;
+        margin: 5px 0px 10px 10px;
+        background: #38571c;
+        color: #fff;
+        border: 1px solid #38571c;
+        text-indent: 0px;
+    }
+
+    #findbackPwd .confirm_mod {
+        display: block;
+        background: url(/Images/Expert/c_dav_bg.png) repeat-x center;
+        text-align: center;
+        color: #fff;
+        height: 30px;
+        line-height: 30px;
+        margin: 20px 0px 30px 0px;
+    }
+
+.uc_weather {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.weather_search {
+    padding: 20px 4px;
+}
+
+    .weather_search table {
+        width: 100%;
+    }
+
+        .weather_search table td {
+            font-size: 14px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+        }
+
+    .weather_search input {
+        width: 225px;
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #ccc;
+        text-indent: 10px;
+        border-radius: 2px;
+    }
+
+    .weather_search .layui-form-select dl {
+        top: 32px;
+    }
+
+        .weather_search .layui-form-select dl dd {
+            line-height: 30px;
+        }
+
+            .weather_search .layui-form-select dl dd.layui-this {
+                background-color: #7ca940
+            }
+
+    .weather_search .layui-form-select .layui-input {
+        text-indent: 0px;
+    }
+
+.input_date {
+    background: url(/Images/Expert/icon_date.png) no-repeat right center;
+}
+
+.weather_search textarea {
+    width: 100%;
+    height: 100px;
+    padding: 5px 10px;
+    margin: 15px 0px 10px 0px;
+    border: 1px solid #ccc;
+    line-height: 22px;
+}
+
+.weather_btn {
+    display: block;
+    width: 150px;
+    background: url(/Images/Expert/c_dav_bg.png) repeat-x center;
+    text-align: center;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0px 10px 0px;
+    float: right;
+}
+
+    .weather_btn:hover {
+        color: #fff
+    }
+
+.layui-table th, td {
+    text-align: center !important;
+    padding: 0px !important;
+    height: 35px !important;
+    line-height: 35px !important;
+    max-width: 300px
+}
+
+.weather_search .weather_thtitle {
+    font-size: 16px;
+    height: 40px !important;
+    line-height: 40px !important;
+}
+
+.uc_weather .td_nomsg {
+    padding: 80px 20px !important;
+    color: #999
+}
+
+.uc_weather #pagination {
+    float: right;
+}
+
+.videoBd input {
+    width: 330px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    display: block;
+    margin: 8px 0px 15px 0px;
+}
+
+.videoBd {
+    width: 330px;
+    margin: 0 auto;
+}
+
+    .videoBd .layui-form-select dl {
+        top: 32px;
+    }
+
+        .videoBd .layui-form-select dl dd {
+            line-height: 30px;
+        }
+
+            .videoBd .layui-form-select dl dd.layui-this {
+                background-color: #7ca940
+            }
+
+    .videoBd .videoBtn {
+        width: 330px;
+        height: 30px;
+        color: #fff;
+        text-align: center;
+        line-height: 30px;
+        background: url(/Images/Expert/c_dav_bgs.png) repeat-x center;
+        border-radius: 2px;
+        display: block;
+        margin: 8px 0px 30px 0px;
+    }
+
+.Btn {
+    width: auto;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    background: url(/Images/Expert/c_dav_bgs.png) repeat-x center;
+    border-radius: 5px;
+    display: block;
+    padding: 0 20px;
+}
+
+.closevideo {
+    color: #fff;
+    text-align: center;
+    background: url(/Images/Expert/c_dav_bgs.png) repeat-x center;
+    padding: 5px 30px;
+}
+
+    .closevideo:hover {
+        color: #fff;
+    }
+
+.uc_weather #pagination2 {
+    float: right;
+}
+
+.uc_weather table td .end_span {
+    color: #e09911;
+    margin: 0 10px;
+}
+
+.uc_weather .msg_title {
+    text-align: left;
+    padding: 0 10px;
+    display: block;
+}
+
+    .uc_weather .msg_title:hover {
+        color: #e09911
+    }
+
+    .uc_weather .msg_title .haveMsg {
+        background: url(/Images/Expert/grzx/icon_xx1.png) no-repeat center;
+        color: #fff;
+        display: block;
+        float: left;
+        min-width: 30px;
+        text-align: center;
+        height: 36px;
+    }
+
+    .uc_weather .msg_title .noMsg {
+        background: url(/Images/Expert/grzx/icon_xx2.png) no-repeat center;
+        color: #fff;
+        display: block;
+        float: left;
+        min-width: 30px;
+        text-align: center;
+        height: 36px;
+    }
+
+#expertMsgBox {
+    padding: 20px;
+}
+/*个人中心*/
+.myCollection {
+    border: 1px solid #ccc;
+}
+
+    .myCollection #pagination {
+        float: right;
+    }
+
+.myc_search {
+    padding: 10px 20px 0px 20px;
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+}
+
+    .myc_search .myc_type {
+        width: 120px;
+        float: left;
+        height: 30px;
+        line-height: 30px;
+    }
+
+        .myc_search .myc_type input {
+            display: block;
+            line-height: 30px;
+            float: left;
+            height: 30px;
+            margin-right: 5px;
+        }
+
+.mycs_box {
+    float: right;
+}
+
+    .mycs_box input {
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #ccc;
+        width: 200px;
+        padding: 0 10px;
+        display: block;
+        float: left
+    }
+
+    .mycs_box a {
+        height: 30px;
+        line-height: 30px;
+        width: 90px;
+        text-align: center;
+        color: #fff;
+        display: block;
+        float: left;
+        background: url(/Images/Expert/c_dav_bg.png) repeat-x center;
+        margin-left: 5px;
+    }
+
+        .mycs_box a img {
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .mycs_box a:hover {
+            color: #fff;
+        }
+
+    .mycs_box .mydelete {
+        background: #e09911;
+        margin-left: 10px;
+    }
+
+    .mycs_box .mymanage {
+        margin-left: 10px;
+    }
+
+.typeList {
+    padding: 20px;
+}
+
+.type_zsk ul {
+    padding: 10px 20px 0px 20px;
+    list-style: none;
+}
+
+    .type_zsk ul li {
+        height: 38px;
+        line-height: 38px;
+        border-bottom: 1px dashed #ccc;
+    }
+
+        .type_zsk ul li .myct_bg img {
+            vertical-align: middle;
+            margin-top: 14px;
+            margin-right: 10px;
+        }
+
+        .type_zsk ul li .myct_bg {
+            display: block;
+            float: left;
+            height: 38px;
+            line-height: 38px;
+        }
+
+        .type_zsk ul li .myct_check {
+            display: block;
+            line-height: 38px;
+            float: left;
+            height: 38px;
+        }
+
+            .type_zsk ul li .myct_check input {
+                display: block;
+                line-height: 38px;
+                float: left;
+                height: 38px;
+                margin-right: 10px;
+            }
+
+        .type_zsk ul li .myzsk_title {
+            display: block;
+            float: left;
+            height: 38px;
+            line-height: 38px;
+            width: 640px;
+            overflow: hidden;
+        }
+
+        .type_zsk ul li .myzsk_type {
+            float: right;
+            height: 38px;
+            line-height: 38px;
+            color: #999;
+            font-size: 12px;
+        }
+
+.typeList ul li .myzsk_type img {
+    height: 20px;
+    width: auto;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.type_bh ul {
+    padding: 10px 20px 0px 20px;
+    list-style: none;
+}
+
+    .type_bh ul li {
+        margin-bottom: 10px;
+        height: 60px;
+        overflow: hidden;
+    }
+
+        .type_bh ul li .myct_check input {
+            display: block;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .type_bh ul li img {
+            float: left;
+            display: block;
+            height: 60px;
+            width: 60px;
+            margin-right: 10px;
+        }
+
+        .type_bh ul li .dis_box {
+            width: 760px;
+            float: left;
+            height: 60px;
+            overflow: hidden;
+            float: left;
+            display: block;
+        }
+
+            .type_bh ul li .dis_box .dis_title {
+                height: 30px;
+                line-height: 30px;
+                margin-top: 2px;
+                overflow: hidden;
+            }
+
+            .type_bh ul li .dis_box .dis_type {
+                height: 20px;
+                line-height: 20px;
+                font-size: 12px;
+                color: #999;
+            }
+
+                .type_bh ul li .dis_box .dis_type img {
+                    height: 20px;
+                    width: auto;
+                    margin-right: 3px;
+                    vertical-align: middle;
+                }
+
+.type_ch ul {
+    padding: 10px 20px 0px 20px;
+    list-style: none;
+}
+
+    .type_ch ul li {
+        margin-bottom: 10px;
+        height: 60px;
+        overflow: hidden;
+    }
+
+        .type_ch ul li .myct_check input {
+            display: block;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .type_ch ul li img {
+            float: left;
+            display: block;
+            height: 60px;
+            width: 60px;
+            margin-right: 10px;
+        }
+
+        .type_ch ul li .dis_box {
+            width: 760px;
+            float: left;
+            height: 60px;
+            overflow: hidden;
+            float: left;
+            display: block;
+        }
+
+            .type_ch ul li .dis_box .dis_title {
+                height: 30px;
+                line-height: 30px;
+                margin-top: 2px;
+                overflow: hidden;
+            }
+
+            .type_ch ul li .dis_box .dis_type {
+                height: 20px;
+                line-height: 20px;
+                font-size: 12px;
+                color: #999;
+            }
+
+                .type_ch ul li .dis_box .dis_type img {
+                    height: 20px;
+                    width: auto;
+                    margin-right: 3px;
+                    vertical-align: middle;
+                }
+
+.myc_search .myc_msg {
+    width: 120px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+    .myc_search .myc_msg input {
+        display: block;
+        line-height: 30px;
+        float: left;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+.sysMsg_list ul {
+    padding: 10px 20px 0px 20px;
+    list-style: none;
+}
+
+    .sysMsg_list ul li {
+        height: 38px;
+        line-height: 38px;
+        border-bottom: 1px dashed #ccc;
+    }
+
+        .sysMsg_list ul li .myct_bg img {
+            vertical-align: middle;
+            margin-top: 14px;
+            margin-right: 10px;
+        }
+
+        .sysMsg_list ul li .myct_bg {
+            display: block;
+            float: left;
+            height: 38px;
+            line-height: 38px;
+        }
+
+        .sysMsg_list ul li .myct_check {
+            display: block;
+            line-height: 38px;
+            float: left;
+            height: 38px;
+        }
+
+            .sysMsg_list ul li .myct_check input {
+                display: block;
+                line-height: 38px;
+                float: left;
+                height: 38px;
+                margin-right: 10px;
+            }
+
+        .sysMsg_list ul li .myzsk_title {
+            display: block;
+            float: left;
+            height: 38px;
+            line-height: 38px;
+            width: 580px;
+            overflow: hidden;
+        }
+
+        .sysMsg_list ul li .myzsk_type {
+            float: right;
+            height: 38px;
+            line-height: 38px;
+            color: #999;
+            font-size: 12px;
+        }
+
+.sys_replyData {
+    margin-right: 15px;
+}
+
+#sysMsgBox {
+    padding: 40px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+    #sysMsgBox .sys_userpic {
+        width: 44px;
+        float: left;
+        margin-right: 6px;
+    }
+
+        #sysMsgBox .sys_userpic img {
+            width: 44px;
+            height: 44px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            -ms-border-radius: 100px;
+            -o-border-radius: 100px;
+            border-radius: 100px;
+        }
+
+    #sysMsgBox .sysName {
+        color: #999;
+        font-size: 12px;
+        height: 30px;
+        line-height: 30px;
+        overflow: hidden;
+        display: block;
+        width: 570px;
+        float: left
+    }
+
+    #sysMsgBox .sysMessage {
+        font-size: 14px;
+        line-height: 22px;
+        display: block;
+        width: 565px;
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 15px;
+    }
+
+.jumptozj {
+    color: #38571c
+}
+
+    .jumptozj:hover {
+        color: #e60012
+    }
+
+#loginBox {
+    width: 600px;
+    height: 360px;
+    overflow: hidden;
+}
+
+    #loginBox .userimg {
+        width: 119px;
+        height: 119px;
+        margin: 0 auto;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+        border-radius: 100px;
+        display: block;
+        margin-top: 40px;
+    }
+
+.lgf_common label {
+    width: 350px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    display: block;
+    font-size: 14px;
+    clear: both;
+}
+
+.lgf_common input {
+    width: 350px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    border: 1px solid #ccc;
+    outline: none;
+    text-indent: 10px;
+    margin-bottom: 5px;
+}
+
+.lgf_common .login_save {
+    width: 350px;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+    background: url(/Images/Expert/c_dav_bgs.png) repeat-x center;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 25px;
+    color: #fff;
+}
+
+    .lgf_common .login_save img {
+        vertical-align: middle;
+        padding-right: 5px;
+    }
+
+.regOrFoget {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+    .regOrFoget a:hover {
+        color: #38571c;
+    }
+
+.lgf_common .lb_reg {
+    width: 110px;
+    text-align: center;
+    display: block;
+    float: right;
+    color: #008015;
+    font-size: 12px;
+}
+
+.lr_title {
+    background: url('../../Images/Expert/tc_pic_title_bg.png') no-repeat center;
+    width: 438px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.input_required {
+    background: url(/Images/Expert/bt.png) no-repeat right center;
+}
+
+#sysExpertMsgBox {
+    padding: 20px;
+}
+
+    #sysExpertMsgBox .sys_btn {
+        width: 450px;
+        height: 30px;
+        margin: 0 auto;
+        display: block;
+        background: url(/Images/Expert/c_dav_bg.png) repeat-x center;
+        text-align: center;
+        line-height: 30px;
+        margin-top: 25px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+        #sysExpertMsgBox .sys_btn img {
+            vertical-align: middle;
+            padding-right: 5px;
+        }
+
+    #sysExpertMsgBox textarea {
+        height: 120px;
+        padding: 5px 10px;
+        line-height: 25px;
+        border: 1px solid #ccc;
+        width: 450px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #sysExpertMsgBox p {
+        width: 450px;
+        margin: 0 auto;
+        line-height: 25px;
+    }
+
+        #sysExpertMsgBox p span {
+            color: #999;
+        }
+
+.commomNoMsg {
+    text-align: center;
+    min-height: 320px;
+    line-height: 320px;
+}
+/*弹出框*/
+.alertdiv {
+    padding: 0;
+    margin: 0;
+}
+/*弹出层*/
+.grayBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: #000;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+    display: none;
+}
+
+.type_box {
+    position: fixed !important;
+    _position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    border: solid 2px #8a8a8a;
+    border-radius: 5px;
+    background: #fff;
+    overflow: hidden;
+    display: none;
+}
+
+    .type_box .RadioClass {
+        margin: 8px 5px;
+    }
+
+    .type_box .RadioText {
+        margin-right: 10px;
+        line-height: 28px;
+    }
+
+.type_title {
+    float: left;
+    border-bottom: solid 1px #e5e5e5;
+    background: #f5f5f5;
+}
+
+    .type_title span {
+        float: left;
+        color: #333;
+        font-weight: bold;
+        padding: 8px 0 0 15px;
+    }
+    /*弹出关闭标签*/
+    .type_title a {
+        opacity: 0.6;
+        vertical-align: top;
+        float: right;
+        height: 16px;
+        width: 16px;
+        margin: 8px 10px 0 0;
+        background: url("../../Images/SysManage/SysSetup/tree/cancel.png") no-repeat;
+    }
+/*内容层*/
+.type_main {
+    float: left;
+}
+/*底部层*/
+.type_bottom {
+    float: left;
+    border-top: solid 1px #dcdcdc;
+    background: #f3f3f3;
+}
+    /*底部层按钮*/
+    .type_bottom input {
+        float: right;
+        margin: 8px 20px 0 20px;
+        border: none;
+        cursor: pointer;
+        width: 72px;
+        height: 24px;
+        background: url(../../Images/SysManage/Btn.png) no-repeat 0 -208px;
+    }
+
+.type_main div {
+    float: left;
+    padding: 0 10px;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.d_1 {
+    float: left;
+    text-align: right;
+    width: 100px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #646464;
+}
+
+    .d_1 span {
+        padding-right: 5px;
+        color: #cc0000 !important;
+    }
+
+.sltClass {
+    float: left;
+    margin-left: 5px;
+    width: 188px;
+    border: 1px solid #DCDCDC;
+    padding: 4px;
+}
+
+.txtClass {
+    float: left;
+    margin-left: 5px;
+    font-size: 14px;
+    padding: 0 5px;
+    width: 188px;
+    height: 28px;
+    line-height: 28px;
+    *padding: 5px;
+    *height: 13px;
+    border: solid 1px #dcdcdc;
+}
+
+.d_2 {
+    float: left;
+    margin: 5px 0 0 5px;
+    font-size: 14px;
+    color: #646464;
+}
+
+.fileClass {
+    float: left;
+    margin-left: 5px;
+    font-size: 12px;
+    width: 260px;
+    height: 26px;
+}
+
+.RadioClass {
+    margin: 8px 5px;
+    float: left;
+}
+
+.RadioText {
+    color: #646464;
+    float: left;
+    font-size: 12px;
+    text-align: right;
+    line-height: 28px;
+}
+
+.nomsg {
+    text-align: center;
+    padding: 100px 0;
+}
+/*分页*/
+.pageDiv {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 32px;
+    /*margin: 10px 0;*/
+    font-size: 12px;
+    font: 12px/12px "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,Verdana,Arial,sans-serif !important;
+}
+
+.page {
+    /*position: absolute;*/
+    width: auto;
+    height: 32px;
+    bottom: 0;
+    right: 5px;
+}
+
+
+    .page a {
+        float: left;
+        margin-right: 5px !important;
+        width: auto;
+        border: solid 1px #ccc !important;
+        padding: 9px 11px !important;
+        color: #666;
+        border-radius: 3px;
+    }
+
+        .page a:hover {
+            text-decoration: none;
+            border-color: #7f7f7f;
+            color: #7f7f7f;
+        }
+
+.thisPage {
+    float: left;
+    margin-right: 5px;
+    width: auto;
+    height: 12px;
+    border: solid 1px #7f7f7f;
+    padding: 5px 7px;
+    color: #7f7f7f;
+    background: #f2f2f2;
+    font-weight: bold;
+}
+
+.allPage {
+    float: left;
+    font-size: 12px;
+    color: #666;
+    margin: 7px 0 0 5px;
+}
+
+.previous {
+    width: 5px !important;
+}
+
+.next {
+    width: auto !important;
+}
+
+.page .plcontect_page_on {
+    background-color: #ff0036;
+    color: #fff;
+}
+/*左导航*/
+.c_left_count {
+    width: 220px;
+    position: relative;
+    top: -30px;
+    padding: 0 10px;
+    text-align:center;
+}
+.left_count {
+    margin-bottom: 10px;
+}
+.left_count p {
+    font-size: 16px;
+    height: 25px;
+    border-bottom: 1px dashed #a8a8a8;
+}
+.left_count span {
+    border-right: 1px solid #a8a8a8;
+    padding: 0 8px 0 7px;
+    display:inline-block;
+    margin-top:5px;
+    cursor:pointer;
+}
+    .left_count span:hover {
+        color: #008015;
+    }
+    .left_count span:last-child {
+        border-right: 0 !important;
+    }
+.Experter {
+    height: 120px !important;
+    padding: 10px 0;
+    border-bottom: 1px dashed #a8a8a8;
+}
+    .Experter:hover {
+        color: #008015;
+        cursor:pointer;
+    }
+.Experters {
+    height: 100px;
+    width:774px !important;
+    padding-left:20px !important;
+}
+.expertIntros {
+    float: left;
+    height: 44px;
+    margin: 8px 0px;
+    line-height: 22px;
+    width:518px;
+    overflow:hidden;
+}
+.Experters .zsk_type {
+    height: 38px;
+    line-height: 38px;
+    float: right;
+    color: #999;
+    font-size: 12px;
+    text-align: right
+}

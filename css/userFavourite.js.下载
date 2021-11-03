@@ -1,0 +1,17 @@
+﻿//type:0:文章，1：专家
+//oid:喜欢的内容ID
+//operate：0:添加，1：删除
+var SetUserFavourite = function (type, oid, operate) {
+    var result = null;
+    $.ajax({
+        url: '/Expert/SetUserFavourite/',
+        dataType: "json",
+        type: 'POST',
+        async: false,
+        data: { type: type, oid: oid, operate: operate },
+        success: function (res) {
+            result = res;
+        }
+    });
+    return result;
+}
